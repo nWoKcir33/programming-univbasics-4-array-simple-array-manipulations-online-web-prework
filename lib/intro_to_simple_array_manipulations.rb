@@ -1,0 +1,50 @@
+def teams
+teams = ["Liverpool", "Man City", "Leicester", "Chelsea"]
+next_team = "Arsenal"
+teams.push(next_team)
+end
+
+p teams
+
+def clubs
+  clubs = ["Man City", "Leicester", "Chelsea", "Arsenal"]
+  previous_club = "Liverpool"
+  clubs.unshift(previous_club)
+end
+
+p clubs
+
+def footballs
+  footballs = ["Liverpool", "Man City", "Leicester", "Chelsea", "Arsenal"]
+  footballs.pop
+end
+
+p footballs
+
+def heroes
+  heroes = ["Liverpool", "Man City", "Leicester", "Chelsea", "Arsenal"]
+  heroes.pop(2)
+end
+
+p heroes
+
+def tops 
+  tops = ["Liverpool", "Man City", "Leicester", "Chelsea", "Arsenal"]
+  tops.shift 
+end
+
+p tops
+
+def elites 
+  elites = ["Liverpool", "Man City", "Leicester", "Chelsea", "Arsenal"]
+  elites.shift(2)
+end
+
+p elites
+
+def supports
+  supports = ["Liverpool", "Man City", "Leicester"]
+  supports.concat(["Chelsea", "Arsenal"])
+end
+
+p supports
