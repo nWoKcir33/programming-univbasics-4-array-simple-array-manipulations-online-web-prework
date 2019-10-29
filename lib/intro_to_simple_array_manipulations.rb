@@ -62,3 +62,7 @@ def stars
 end
 
 p stars
+
+def a 
+  s = ["Liverpool", "Man City", "Leicester"]
+  t = ["Chelsea", ]
