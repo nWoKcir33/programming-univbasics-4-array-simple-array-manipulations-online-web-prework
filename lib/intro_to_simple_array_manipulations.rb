@@ -55,3 +55,10 @@ def lives
 end
 
 p lives
+
+def stars
+  stars = ["Liverpool", "Man City", "Leicester", "Man City", "Chelsea"]
+  stars.uniq 
+end
+
+p stars
