@@ -65,4 +65,4 @@ p stars
 
 def a 
   s = ["Liverpool", "Man City", "Leicester"]
-  t = ["Chelsea", "Arsenal", "Crystal Palance"]
+  t = ["Chelsea", "Arsenal", "Crystal Palance", ["Man Utd", "Sheff Utd"]]
