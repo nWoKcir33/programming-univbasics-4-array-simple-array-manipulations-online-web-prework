@@ -70,4 +70,4 @@ def a
   a.flatten
 end
 
-p a 
+p 
