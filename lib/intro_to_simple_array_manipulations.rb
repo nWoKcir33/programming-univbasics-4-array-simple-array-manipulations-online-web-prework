@@ -78,3 +78,10 @@ stars.delete("Man Utd")
 end
 
 p stars
+
+def fames
+  fames = ["liverpool", "Man City", "Man Utd", "Leicester", "Chelsea"]
+  fames.delete_at(2)
+end
+
+p fames
