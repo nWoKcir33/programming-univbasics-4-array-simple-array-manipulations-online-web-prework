@@ -48,3 +48,10 @@ def supports
 end
 
 p supports
+
+def lives
+  lives ["Liverpool", "Man City", "Leicester", "Chelsea", "Man Utd"]
+  lives.insert(4, "Arsenal")
+end
+
+p lives
