@@ -70,4 +70,7 @@ def a
   a.flatten
 end
 
-p 
+p stars
+stars = ["Liverpool", "Man Utd", "Man Utd", "Man Utd", "Man City", "Leicester", "Cheslea"]
+stars.delete("Man Utd")
+end
